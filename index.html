@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        /* GLOBAL STYLE  */
+        * {
+            margin: 0;    
+        }
+
+        a {
+            text-decoration: none;
+            color: inherit;
+        }
+
+        html {
+            font-family: sans-serif;
+        }
+
+        body {
+            background-color: #7F669D;
+            min-height: 100%; /* TODO */
+            color: #DEBACE;
+        }
+
+        /* NAVBAR  */
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            padding: 30px 40px;
+        }
+
+        .navbar-logo {
+            font-size: 24px;
+            font-weight: bold;
+
+        }
+
+        .nav {
+            display: flex;
+            gap: 30px;   
+        }
+
+
+        .nav-link {
+            font-size: 18px;
+        }
+
+        /* HERO SECTION  */
+        .hero {
+            display: flex;
+            justify-content: center;
+            padding: 40px;
+            gap: 40px;
+
+        }
+
+        .hero-body {
+            max-width: 700px;
+        }
+
+        .hero-title {
+            font-size: 64px;
+            margin-bottom: 30px;
+        }
+
+        .hero-text {
+            font-size: 28px;
+            margin-bottom: 20px;
+            opacity: 0.6;
+        }
+
+        .hero-actions {
+            display: flex;
+            gap: 20px;
+        }
+
+        .hero-link {
+            font-size: 20px;
+            padding: 12px 18px;
+            display: block;
+            background-color: #777db1;
+            color: black;
+        }
+
+        .hero-image {
+            width: 700px;
+            height: 400px;
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <a class="navbar-logo" href="#">Home</a>
+        <div class="nav">
+            <a class="nav-link" href="#">Staff</a>
+            <a class="nav-link" href="#">Events</a>
+        </div>
+    </div>
+    <div class="hero">
+        <div class="hero-body">
+            <h1 class="hero-title">DeadServer404</h1>
+            <p class="hero-text">Малък български аниме сървър. Заповядайте при нас, ако искате да се запознаете с нови готини хора и да се забавлявате! ツ</p>
+            <div class="hero-actions">
+                <a href="#" class="hero-link">Discord</a>
+                <a href="#" class="hero-link">Instagram</a>
+            </div>
+        </div>
+        <img class="hero-image" src="https://images.saymedia-content.com/.image/ar_16:9%2Cc_fill%2Ccs_srgb%2Cq_auto:eco%2Cw_1200/MTc2MjYxMDA5ODUyNjA1NjEz/ten-facts-about-zero-two.png" alt="snimka na zero 2">
+    </div>
+</body>
+</html> 
